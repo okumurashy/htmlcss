@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: white;
+}
+
+.botao a {
+    text-decoration: none;
+    color: white;
+    background-color: #00c3ff;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.botao a:hover {
+    background-color: #009fcf;
+}
+
+.imagem img {
+    width: 200px;
+    border: 2px solid #00c3ff;
+    border-radius: 10px;
+}
+
+.texto {
+    max-width: 500px;
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+    background-color: #000;
+}
+
+.azul {
+    color: #00c3ff;
+}
+
+
+.insta{
+    position: absolute;
+    top:400px; 
+}
+
+.git{
+    position: absolute;
+    top: 400px;
+    right: 900px;
+}
+
+
+
